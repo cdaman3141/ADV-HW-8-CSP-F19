@@ -1,5 +1,7 @@
-import unittest
+import 'coveralls'
+Coveralls.wear!
 
+import unittest
 import rpn
 
 class TestBasics(unittest.TestCase):
